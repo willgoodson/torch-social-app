@@ -1,0 +1,40 @@
+* {
+    background-color: #1A2C38;
+    box-sizing: border-box;
+    /*font-family: georgia,garamond,serif;*/
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Form Styling*/
+
+form input {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px 0;
+    display: flex;
+    color: black;
+    font-size: 16px;
+}
+
+form label {
+    display: flex;
+    font-size: 18px;
+}
+
+form button[type=submit] {
+    width:100%;
+    border:none;
+    border-radius: 10px;
+    background-color: #E9724C;
+    padding:10px;
+    margin:10px 0;
+    color: black;
+    font-size: 18px;
+}
